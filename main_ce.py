@@ -4,7 +4,7 @@
 # from langchain_cohere import ChatCohere
 
 # # === 🔑 SET YOUR COHERE API KEY HERE ===
-# os.environ["COHERE_API_KEY"] = "KC6v1yiIzxlAYX1TAcJ5w8RSXfM5iz4r7RETFQCK"
+# os.environ["COHERE_API_KEY"] = "Cohere API key"
 
 # # Load docx prompt-response table
 # def load_prompt_response_table(docx_path):
@@ -70,7 +70,7 @@ from langchain.chains import ConversationChain
 from langchain_cohere import ChatCohere
 
 # === 🔑 SET YOUR COHERE API KEY HERE ===
-os.environ["COHERE_API_KEY"] = "KC6v1yiIzxlAYX1TAcJ5w8RSXfM5iz4r7RETFQCK"  # Replace with your actual Cohere key
+os.environ["COHERE_API_KEY"] = "Cohere API Key"  # Replace with your actual Cohere key
 
 # === 🔍 Load prompt-response table from the Word document ===
 def load_prompt_response_table(docx_path):
